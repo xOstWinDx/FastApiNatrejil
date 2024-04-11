@@ -1,13 +1,9 @@
 from fastapi import Depends
-from fastapi_users_db_sqlalchemy import SQLAlchemyBaseUserTable, SQLAlchemyUserDatabase
+from src.fastapi_users_db_sqlalchemy import SQLAlchemyBaseUserTable, SQLAlchemyUserDatabase
 from sqlalchemy.ext.asyncio import AsyncSession
-from sqlalchemy.orm import mapped_column, Mapped, DeclarativeBase
+from sqlalchemy.orm import mapped_column, Mapped
 
-from src.database import get_async_session
-
-
-class Base(DeclarativeBase):
-    pass
+from src.database import get_async_session, Base
 
 
 class User(SQLAlchemyBaseUserTable[int], Base):

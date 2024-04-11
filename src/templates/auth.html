@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+
+    </script>
+</head>
+
+<body class="flex items-center justify-center min-h-screen bg-purple-950 bg-cover flex-col ">
+<div class='border-2 border-white text-3xl font-bold flex items-center justify-center flex-col rounded-md bg-gradient-to-r from-purple-500 to-pink-500'>
+    <form id='auth' action="http://127.0.0.1:8000/auth/jwt/login" method="post"
+          class='font-bold flex items-center justify-center flex-col rounded-md bg-gradient-to-r from-purple-500 to-pink-500'>
+        <h1 class="p-2 m-2 text-slate-100">Авторизация</h1>
+
+        <input value="" form="auth" name='username' id='username'
+               class="p-3 m-1 bg-transparent placeholder:text-blue-50 border rounded-lg" type="text"
+               placeholder="Email" required>
+        <input value="" form="auth" name='password' id='password'
+               class="p-3 m-1 bg-transparent placeholder:text-blue-50 border rounded-lg "
+               type="password" placeholder="Пароль" required>
+        <a class="text-red-800 text-sm">{{error}}</a>
+        <input value="Войти" type="submit" class="active:bg-sky-600 p-3 m-1 text-slate-100 rounded-md bg-sky-950">
+    </form>
+    <form method="get" action="http://127.0.0.1:8000/reg/">
+        <button type="submit" class="active:bg-sky-600 p-3 m-1 text-slate-100 rounded-md bg-sky-950">Регистрация
+        </button>
+    </form>
+
+</div>
+</body>
+
+
+</html>

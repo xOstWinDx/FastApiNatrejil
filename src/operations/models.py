@@ -5,25 +5,16 @@ from sqlalchemy import ForeignKey, TIMESTAMP, Column
 from enum import Enum
 
 from src.auth.models import User
-
-
-class Base(DeclarativeBase):
-    pass
-
-
-class OpType(Enum):
-    SELL = 'SOLD'
-    BUY = 'BUY'
-    SEND = 'SEND'
-    SPEND = 'SPEND'
+from src.database import Base
 
 
 class Operations(Base):
     __tablename__ = 'operations'
     id: Mapped[int] = mapped_column(primary_key=True)
-    type: Mapped[OpType] = mapped_column(nullable=False)
+    type: Mapped[str] = mapped_column(nullable=False)
     quantity: Mapped[str] = mapped_column(nullable=False)
     date = Column(TIMESTAMP, nullable=False)
-    user_id: Mapped[int] = mapped_column(ForeignKey(User.id), nullable=False)
+    figi: Mapped[str] = mapped_column(nullable=False)
+    user_id: Mapped[int] = mapped_column(ForeignKey(User.id,ondelete='CASCADE'), nullable=False)
 
     user: Mapped[User] = relationship()

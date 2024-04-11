@@ -5,6 +5,9 @@ from src.config import settings
 
 engine = create_async_engine(settings.DATABASE_URL_asyncpg, echo=True)
 
+class Base(DeclarativeBase):
+    pass
+
 
 async def get_async_session() -> AsyncGenerator[AsyncSession, None]:
     async with async_sessionmaker(engine)() as session:
