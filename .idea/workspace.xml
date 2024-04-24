@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de21d31e-8629-4f95-9cc7-db00d289e341" name="Changes" comment="Project complete" />
+    <list default="true" id="de21d31e-8629-4f95-9cc7-db00d289e341" name="Changes" comment="project complete">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="OstWinD &lt;starkatya0@yandex.ru&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="SOFT" />
     <option name="UPDATE_TYPE" value="REBASE" />
@@ -164,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713986453674</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="project complete">
+      <option name="closed" value="true" />
+      <created>1713986816299</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713986816299</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,11 +208,12 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="очень много всего, уроки с 1 по 6 =)" />
-    <MESSAGE value="Полный ппц, вобще всё что только можно добавленно, слишком дофига." />
     <MESSAGE value="1" />
     <MESSAGE value="env-example" />
     <MESSAGE value="Project complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project complete" />
+    <MESSAGE value="Полный ппц, вобще всё что только можно добавленно, слишком дофига." />
+    <MESSAGE value="project complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="project complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
