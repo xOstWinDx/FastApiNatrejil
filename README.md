@@ -21,6 +21,8 @@
   - Docker
   - CORS Middleware
   - Тестирование PyTest
+  - Кастомные Exceptions
+  - Pydantic settings для чувствительных данных .env
 
 ## Пользовательские возможности
   - Зарегистрироваться
