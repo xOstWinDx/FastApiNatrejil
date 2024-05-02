@@ -39,6 +39,3 @@
   - Frontend
 
 
-## Разработчик
-
-- [Alexey](https://github.com/xOstWinDx)
