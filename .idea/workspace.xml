@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de21d31e-8629-4f95-9cc7-db00d289e341" name="Changes" comment="project complete">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="de21d31e-8629-4f95-9cc7-db00d289e341" name="Changes" comment="project gg">
+      <change beforePath="$PROJECT_DIR$/.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/fast_api_stepik.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/fast_api_stepik.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amvera.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/app.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/app.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/celery.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker/celery.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tasks/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tasks/tasks.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +102,14 @@
       <recent name="C:\Users\stark\Documents\PyCharm\fast_api_stepik\src\tasks" />
       <recent name="C:\Users\stark\Documents\PyCharm\fast_api_stepik" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>

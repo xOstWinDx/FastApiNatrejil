@@ -14,11 +14,11 @@ class Settings(BaseSettings):
     SMTP_USER: str
     SMTP_PASSWORD: str
 
-    DB_HOST_TEST: str
-    DB_PORT_TEST: int
-    DB_USER_TEST: str
-    DB_PASS_TEST: str
-    DB_NAME_TEST: str
+    DB_HOST_TEST: str = "None"
+    DB_PORT_TEST: int = 0
+    DB_USER_TEST: str = "None"
+    DB_PASS_TEST: str = "None"
+    DB_NAME_TEST: str = "None"
 
     REDIS_HOST: str
     REDIS_PORT: str
@@ -31,7 +31,7 @@ class Settings(BaseSettings):
     def DATABASE_URL_TEST(self):
         return f'postgresql+asyncpg://{self.DB_USER_TEST}:{self.DB_PASS}@{self.DB_HOST_TEST}:{self.DB_PORT_TEST}/{self.DB_NAME_TEST}'
 
-    model_config = SettingsConfigDict(env_file=('.env'))
+    model_config = SettingsConfigDict(env_file=('.env-non-dev'), extra='ignore')
 
 
 settings = Settings()

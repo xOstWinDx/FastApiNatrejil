@@ -8,7 +8,6 @@ from celery import Celery
 from starlette.templating import Jinja2Templates
 
 from src.config import settings
-from email.mime.image import MIMEImage
 
 SMTP_HOST = "smtp.yandex.com"
 SMTP_PORT = 465

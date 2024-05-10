@@ -62,8 +62,7 @@ app.include_router(search_router)
 templates = Jinja2Templates(directory="src/templates")
 
 origins = [
-    "http://localhost:8000",
-    "http://localhost:63342",
+    "http://localhost:9000",
 ]
 
 app.add_middleware(
